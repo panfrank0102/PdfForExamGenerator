@@ -1,6 +1,6 @@
 # PDF 六合一整理器（PdfForExamGenerator）
 
-把 PDF 演示文稿（如 `lecture2-indexconstruction.pdf`）中勾选的页面，按**每页 6 页**（3 列 × 2 行）重新排版到**横版 A4** PDF，适合打印复习。
+把 PDF 演示文稿中勾选的页面，按**每页 6 页**（3 列 × 2 行）重新排版到**横版 A4** PDF，适合打印复习。
 
 ## 环境与运行
 
@@ -45,7 +45,6 @@ python main.py
 | `pdf_ops.py` | PDF 读取与"6 合 1"导出逻辑（可独立调用/测试） |
 | `requirements.txt` | 依赖清单（pymupdf） |
 | `session.json` | 自动生成：记忆上次文件与勾选状态；删除即可重置 |
-| `demo_lecture2_6up.pdf` | 示例输出（35 页全选导出的效果） |
 | `ui_preview.png` | 界面截图 |
 
 ## 调整排布参数
