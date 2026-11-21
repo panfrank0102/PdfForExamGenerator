@@ -4,11 +4,10 @@
 
 ## 环境与运行
 
-- Python：conda 环境 `env_1`（Python 3.14）
-- 依赖：PyMuPDF（已装入 `env_1`；如需重装：`pip install pymupdf`）
+- Python 3.14
+- 依赖：PyMuPDF
 
 ```bash
-conda activate env_1
 python main.py
 ```
 
